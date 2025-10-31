@@ -5,12 +5,12 @@ const Hero = () => {
 
     return (
         <div 
-            className="relative bg-cover bg-center bg-no-repeat py-20 px-4"
+            className="relative bg-cover bg-center bg-no-repeat py-20  px-35"
             style={{
                 backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./src/assets/heroBG.jpg)'
             }}
         >
-            <div className="max-w-4xl mx-auto text-white">
+            <div className=" text-white">
                 <h1 className="text-5xl font-bold mb-1 mr-auto">
                     Welcome.
                 </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
                     Millions of movies, TV shows and people to discover. Explore now.
                 </p>
 
-                <div className="relative w-full mx-auto font-light">
+                <div className="relative font-light w-full">
                     <input
                         type="text"
                         placeholder="Search for a movie, tv show, person......"

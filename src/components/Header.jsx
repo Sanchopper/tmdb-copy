@@ -6,11 +6,11 @@ const Header = () => {
     const [isOpenLanguage, setIsOpenLanguage] = useState(false)
     
     return (
-        <header className="flex bg-[#032541] text-white py-4 px-6">
+        <header className="flex bg-[#032541] text-white py-4 px-6 pl-35">
             <nav className='flex justify-between items-center gap-x-6 w-full'>
                 {/* Левая часть */}
                 <div className="flex items-center gap-x-15">
-                    <Link to='/' className="text-xl font-bold ml-30">MyTMDB</Link>
+                    <Link to='/' className="text-xl font-bold ">MyTMDB</Link>
                     <Dropdown 
                         title="Movies"
                         items={["Popular", "Now Playing", "Upcoming", "Top Rated"]}
