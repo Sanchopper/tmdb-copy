@@ -1,15 +1,16 @@
 import React from 'react'
+import MovieCard from './MovieCard.jsx'
 
 const TrendingList = () => {
   return (
     <div
-      className="relative py-10 bg-cyan-400"
+      className="relative py-10 pl-35 "
     >
       <div className="trending-header">
-        <h1 className="ml-10">Trending</h1>
+        <h1 className="text-2xl font-bold">Trending</h1>
       </div>
       <div className="trending-content">
-        
+        <MovieCard/>
       </div>
     </div>
   )
