@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Search from './components/Search.jsx';
 import Hero from './components/Hero.jsx'
 import TrendingList from './components/TrendingList.jsx';
+import Trailers from './components/Trailers.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Search/>
       <Hero/>
       <TrendingList/>
+      <Trailers/>
     </BrowserRouter>
   </StrictMode>,
 )
